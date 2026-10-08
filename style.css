@@ -1,0 +1,99 @@
+/* Base et typographie */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f8f9fa;
+  }
+  
+  /* En-tête et Navigation */
+  .header {
+    background-color: #1a252f;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Présentation (Hero) */
+  .hero {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .lead {
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    color: #555;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Adaptation mobile requise par le sujet */
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      gap: 0.8rem;
+      text-align: center;
+    }
+  
+    .nav ul {
+      gap: 1rem;
+    }
+  
+    .hero h1 {
+      font-size: 1.5rem;
+    }
+  }
