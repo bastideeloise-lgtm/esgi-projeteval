@@ -78,22 +78,12 @@ Ce site web statique promeut les activités d'une association étudiante, réper
 
 ## Conflit Git et résolution
 
-- **Branches concernées** : `feature/...` (identité visuelle) et `feature/...` (adaptation mobile)
-- **Étudiants concernés** : Étudiant 1 et Étudiant 2
+- **Branches concernées** : `feature/...` (identité visuelle) et `feature/...` 
 - **Fichier et zone en conflit** : _ex. `style.css`, bloc `nav` / variables de couleurs_
 - **Origine** : les deux branches ont modifié volontairement les mêmes lignes à partir du même commit de `develop`; Git ne pouvait pas choisir automatiquement.
 - **Choix de résolution** : _décrire ce qui a été conservé de chaque amélioration_
 - **Coordination** : Étudiant 3 (@bastideeloise-lgtm) a coordonné l'intégration et la résolution.
 - **Lien** : _PR n° ..._
-
----
-
-## Versions publiées
-
-| Tag | Date | Contenu | Lien |
-| :--- | :--- | :--- | :--- |
-| `v1.0` | _JJ/MM/AAAA_ | Première version stable : fonctionnalités A, B, C, correction mobile | _lien release_ |
-| `v1.0.1` | _JJ/MM/AAAA_ | Correction du lien de navigation vers les événements | _lien release_ |
 
 ---
 
