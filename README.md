@@ -1,3 +1,4 @@
+
 # Plateforme Événementielle Associative
 
 Projet d'évaluation pratique dédié à la gestion collaborative avec **Git & GitHub** dans le cadre d'un workflow professionnel (Git Flow).
