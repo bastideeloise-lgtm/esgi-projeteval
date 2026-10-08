@@ -104,11 +104,79 @@
     max-width: 100%;
     box-sizing: border-box;
     overflow-wrap: anywhere;
+
+/* Fonctionnalité B - Catalogue d'événements */
+
+.evenements {
+    padding: 60px 20px;
+    background-color: #f4f6fb;
+}
+
+.evenements h2 {
+    text-align: center;
+    color: #243b55;
+    margin-bottom: 15px;
+}
+
+.intro-evenements {
+    text-align: center;
+    margin-bottom: 35px;
+    color: #555;
+}
+
+.liste-evenements {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.carte-evenement {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.carte-evenement h3 {
+    color: #243b55;
+    margin-bottom: 15px;
+}
+
+.carte-evenement p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.bouton-inscription {
+    display: inline-block;
+    background-color: #243b55;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.bouton-inscription:hover,
+.bouton-inscription:focus-visible {
+    background-color: #375a7f;
+}
+
+/* Adaptation mobile */
+@media (max-width: 900px) {
+    .liste-evenements {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 @media (max-width: 600px) {
     .liste-evenements {
         grid-template-columns: minmax(0, 1fr);
         width: 100%;
+    }
+}
+        grid-template-columns: 1fr;
     }
 }
