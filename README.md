@@ -92,8 +92,8 @@ Ce site web statique promeut les activités d'une association étudiante, réper
 
 | Tag | Date | Contenu | Lien |
 | :--- | :--- | :--- | :--- |
-| `v1.0` | _JJ/MM/AAAA_ | Première version stable : fonctionnalités A, B, C, correction mobile | _lien release_ |
-| `v1.0.1` | _JJ/MM/AAAA_ | Correction du lien de navigation vers les événements | _lien release_ |
+| `v1.0` | _J08/10/2026_ | Première version stable : fonctionnalités A, B, C, correction mobile | _lien release_ |
+| `v1.0.1` | _J08/10/2026_ | Correction du lien de navigation vers les événements | _lien release_ |
 
 ---
 
